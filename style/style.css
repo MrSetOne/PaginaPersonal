@@ -1,0 +1,106 @@
+/* VARIABLES */
+
+:root {
+    --negro: #000000;
+    --blanco: #FFFFFF;
+}
+
+
+/* GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header__hero {
+    height: 100vh;
+    background-image: url(../src/amazonas2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 2rem 5rem; */
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 1.5rem 5rem;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav__container {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__nav h1,
+.header__nav a {
+    color: var(--blanco);
+    font-size: 2.5rem;
+    /* Revisar hacer un clamp si hay tiempo*/
+    font-weight: 400;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}
+
+@media (hover: hover) {
+    .header__nav h1:hover,
+    .header__nav a:hover {
+        color: var(--negro);
+        background-color: var(--blanco);
+        transition: ease-in-out .5s;
+    }
+}
+
+.header__enbellecedor {
+    background-color: var(--negro);
+    height: 7rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media (max-width: 1100px) {
+    .header__nav {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        height: 18rem;
+    }
+    .header__nav>a {
+        font-size: 7rem;
+        font-weight: 100;
+    }
+    .header__enbellecedor {
+        height: 18rem;
+    }
+}
+
+
+/* Solo para hacer test del header */
+
+main {
+    height: 800rem;
+}
