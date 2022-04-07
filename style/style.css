@@ -114,7 +114,7 @@ hr {
     .header__nav h1:hover,
     .header__nav a:hover {
         color: var(--negro);
-        background-color: var(--blanco);
+        background-color: var(--clear);
         transition: ease-in-out .5s;
         text-shadow: none;
     }
@@ -163,9 +163,50 @@ main {
 
 h1 {
     color: var(--clear);
-    padding-top: 1rem;
+    padding-top: 3rem;
     font-size: 12rem;
     text-align: center;
     font-weight: 100;
     line-height: .7;
+}
+
+.developer__article {
+    background-color: var(--blanco);
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    grid-auto-flow: dense;
+}
+
+.article__imagen {
+    height: 100%;
+    background-image: url(../assets/musseum\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 80px 8px #000000;
+}
+
+.article__imagen h2 {
+    font-size: 5rem;
+    color: var(--blanco);
+}
+
+.article__text {
+    padding: 2rem;
+}
+
+.article__text p {
+    font-size: 1.2rem;
+}
+
+.developer__article:nth-child(even) {
+    grid-template-columns: 7fr 4fr;
+}
+
+.article__imagen:nth-child(odd) {
+    background-image: url(../assets/musseum\ \(4\).jpg);
+    /* CAMBIA LA IMAGEN*/
 }
