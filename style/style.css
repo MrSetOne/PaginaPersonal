@@ -1,8 +1,13 @@
+/* IMPORT DE GOOGLEFONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
 /* VARIABLES */
 
 :root {
     --negro: #000000;
     --blanco: #FFFFFF;
+    --coolfont: 'Beau Rivage', cursive;
 }
 
 
@@ -29,6 +34,15 @@ html {
 }
 
 
+/* Utilidades */
+
+.flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* HEADER */
 
 .header__hero {
@@ -37,7 +51,19 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* padding: 2rem 5rem; */
+}
+
+.hero__support {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+.header__hero blockquote {
+    font-family: var(--coolfont);
+    font-size: 3rem;
 }
 
 .header__nav {
@@ -67,6 +93,10 @@ html {
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.94);
 }
 
+.hero__text {
+    color: var(--blanco);
+}
+
 hr {
     width: 80vw;
 }
@@ -86,7 +116,7 @@ hr {
     height: 7rem;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 9;
 }
 
 @media (max-width: 1100px) {
