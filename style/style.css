@@ -7,6 +7,11 @@
 :root {
     --negro: #000000;
     --blanco: #FFFFFF;
+    --darkness: #161e0d;
+    --mid: #606C38;
+    --clear: #FEFAE0;
+    --auxmid: #BC6C25;
+    --auxclear: #DDA15E;
     --coolfont: 'Beau Rivage', cursive;
 }
 
@@ -33,6 +38,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--darkness);
+}
+
 
 /* Utilidades */
 
@@ -47,7 +56,7 @@ html {
 
 .header__hero {
     height: 100vh;
-    background-image: url(../src/amazonas2.jpg);
+    background-image: url(../assets/amazonas2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +99,7 @@ html {
     padding: .5rem 1rem;
     border-radius: 20px 0;
     transition: ease-in-out .5s;
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.94);
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
 }
 
 .hero__text {
@@ -117,6 +126,7 @@ hr {
     position: sticky;
     top: 0;
     z-index: 9;
+    box-shadow: 0px -14px 50px 32px #000000;
 }
 
 @media (max-width: 1100px) {
@@ -146,4 +156,16 @@ hr {
 
 main {
     height: 800rem;
+    background-color: var(--negro);
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--clear);
+    padding-top: 1rem;
+    font-size: 12rem;
+    text-align: center;
+    font-weight: 100;
+    line-height: .7;
 }
