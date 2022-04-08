@@ -2,7 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
+/*  */
+
+
+/*  */
+
+
 /* VARIABLES */
+
+
+/*  */
+
+
+/*  */
 
 :root {
     --negro: #000000;
@@ -16,7 +28,19 @@
 }
 
 
+/*  */
+
+
+/*  */
+
+
 /* GLOBALES */
+
+
+/*  */
+
+
+/*  */
 
 * {
     margin: 0;
@@ -43,7 +67,19 @@ body {
 }
 
 
+/*  */
+
+
+/*  */
+
+
 /* Utilidades */
+
+
+/*  */
+
+
+/*  */
 
 .flexcenter {
     display: flex;
@@ -52,7 +88,19 @@ body {
 }
 
 
+/*  */
+
+
+/*  */
+
+
 /* HEADER */
+
+
+/*  */
+
+
+/*  */
 
 .header__hero {
     height: 100vh;
@@ -99,7 +147,6 @@ body {
     font-weight: 400;
     padding: .5rem 1rem;
     border-radius: 20px 0;
-    transition: ease-in-out .5s;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
 }
 
@@ -139,11 +186,14 @@ hr {
     }
     .header__nav>a {
         font-size: 7rem;
-        /*7rem = 3vw*/
+        /*2.13rem - 3vw - 7rem */
         font-weight: 100;
     }
     .header__enbellecedor {
         height: 19.2rem;
+    }
+    .nav__item a {
+        font-size: clamp(1.9rem, 2.7vw, 7rem);
     }
 }
 
@@ -154,11 +204,23 @@ hr {
 }
 
 
+/*  */
+
+
+/*  */
+
+
 /* MAIN CONTENT */
+
+
+/*  */
+
+
+/*  */
 
 main {
     background-color: var(--negro);
-    max-width: 90rem;
+    width: min(90rem, 90vw);
     margin: 0 auto;
 }
 
