@@ -397,4 +397,45 @@ footer * {
 }
 
 
+/* ABOUT ME PAGE */
+
+.aboutme__me img,
+.aboutme__image {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.aboutme__text {
+    flex-direction: column;
+}
+
+.aboutme__text h2 {
+    color: var(--clear);
+    font-size: 3rem;
+    text-align: center;
+    margin: 1.5rem auto;
+    background-color: var(--negro);
+}
+
+.aboutme__text p {
+    font-size: 1.4rem;
+    width: 100%;
+    background-color: var(--clear);
+    padding: 2rem min(12rem, 9vw);
+}
+
+.aboutme__image {
+    background-image: url(../assets/gaming.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutme__image h2 {
+    color: var(--blanco);
+    font-size: clamp(5.8rem, 20.7vw, 14rem);
+    /* 5.8rem - 20.7vw - 14rem */
+}
+
+
 /* 240px */
