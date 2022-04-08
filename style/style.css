@@ -381,9 +381,9 @@ footer * {
     }
 }
 
-@media (max-height: 397px) {
+@media (max-height: 450px) {
     .hero__text blockquote {
-        font-size: 1.8rem;
+        font-size: 1.75rem;
     }
 }
 
