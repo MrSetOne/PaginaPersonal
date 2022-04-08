@@ -160,13 +160,20 @@ hr {
 }
 
 @media (hover: hover) {
-    .header__nav h1:hover,
     .header__nav a:hover {
         color: var(--negro);
         background-color: var(--clear);
         transition: ease-in-out .5s;
         text-shadow: none;
     }
+}
+
+.nav__item--active {
+    color: var(--negro) !important;
+    background-color: var(--clear);
+    text-shadow: none;
+    border-radius: 20px 0;
+    text-shadow: none !important;
 }
 
 .header__enbellecedor {
