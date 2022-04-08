@@ -138,6 +138,7 @@ hr {
     }
     .header__nav>a {
         font-size: 7rem;
+        /*7rem = 3vw*/
         font-weight: 100;
     }
     .header__enbellecedor {
@@ -152,14 +153,16 @@ hr {
 }
 
 
-/* Solo para hacer test del header */
+/* MAIN CONTENT */
 
 main {
-    height: 800rem;
     background-color: var(--negro);
     max-width: 90rem;
     margin: 0 auto;
 }
+
+
+/* ENCABEZADO */
 
 h1 {
     color: var(--clear);
@@ -170,6 +173,9 @@ h1 {
     line-height: .7;
 }
 
+
+/* INDEX'S CONTENT */
+
 .developer__article {
     background-color: var(--blanco);
     display: grid;
@@ -179,7 +185,7 @@ h1 {
 
 .article__imagen {
     height: 100%;
-    background-image: url(../assets/musseum\ \(2\).jpg);
+    background-image: url(../assets/musseum\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +196,7 @@ h1 {
 }
 
 .article__imagen h2 {
-    font-size: 5rem;
+    font-size: 10rem;
     color: var(--blanco);
 }
 
@@ -207,6 +213,57 @@ h1 {
 }
 
 .article__imagen:nth-child(odd) {
-    background-image: url(../assets/musseum\ \(4\).jpg);
+    background-image: url(../assets/Smart-Factory.jpg);
     /* CAMBIA LA IMAGEN*/
+}
+
+.article__text h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.article__text p {
+    line-height: 1.7;
+}
+
+.article__text blockquote {
+    font-family: var(--coolfont);
+    font-size: 2.1rem;
+    line-height: .7;
+}
+
+.article__text blockquote::after,
+.article__text blockquote::before {
+    content: "''";
+    font-size: 3rem;
+}
+
+.article__quote {
+    margin: 1rem auto .3rem auto;
+    padding: 0 2rem;
+}
+
+.article__quote p {
+    text-align: end;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: var(--negro);
+    padding: 1rem 0;
+}
+
+footer ul {
+    display: flex;
+    gap: 2rem;
+}
+
+footer * {
+    font-size: 2.1rem;
+    color: var(--clear);
 }
