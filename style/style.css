@@ -257,7 +257,7 @@ h1 {
 
 .article__imagen {
     height: 100%;
-    background-image: url(../assets/musseum\ \(1\).jpg);
+    background-image: url(../assets/musseum1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -390,6 +390,9 @@ footer * {
     }
     .article__text blockquote {
         font-size: 2.7rem;
+    }
+    footer {
+        flex-direction: column;
     }
 }
 
