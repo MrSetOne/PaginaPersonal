@@ -143,7 +143,6 @@ body {
 .header__nav a {
     color: var(--blanco);
     font-size: 2.5rem;
-    /* Revisar hacer un clamp si hay tiempo*/
     font-weight: 400;
     padding: .5rem 1rem;
     border-radius: 20px 0;
@@ -189,8 +188,9 @@ hr {
     .header__nav {
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
-        height: 19.2rem;
+        gap: 1rem;
+        height: 14.2rem;
+        padding: 0;
     }
     .header__nav>a {
         font-size: 7rem;
@@ -198,7 +198,7 @@ hr {
         font-weight: 100;
     }
     .header__enbellecedor {
-        height: 19.2rem;
+        height: 15.5rem;
     }
     .nav__item a {
         font-size: clamp(1.9rem, 2.7vw, 7rem);
@@ -369,9 +369,15 @@ footer * {
     }
 }
 
+@media (max-width: 400px) {
+    .hero__text blockquote {
+        font-size: clamp(1.8rem, 7vw, 3rem);
+    }
+}
+
 @media (max-width: 320px) {
     .header__enbellecedor {
-        height: 20.5rem;
+        height: 16rem;
     }
 }
 
