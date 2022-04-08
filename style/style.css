@@ -64,15 +64,16 @@ body {
 
 .hero__support {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 10vw;
 }
 
-.header__hero blockquote {
+.hero__text blockquote {
     font-family: var(--coolfont);
     font-size: 3rem;
+}
+
+.hero__text blockquote::first-letter {
+    font-size: 5rem;
 }
 
 .header__nav {
@@ -166,7 +167,7 @@ main {
 
 h1 {
     color: var(--clear);
-    padding-top: 3rem;
+    padding: 3rem 0 2rem 0;
     font-size: 12rem;
     text-align: center;
     font-weight: 100;
@@ -189,9 +190,6 @@ h1 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: inset 0px 0px 80px 8px #000000;
 }
 
@@ -243,7 +241,8 @@ h1 {
     padding: 0 2rem;
 }
 
-.article__quote p {
+.article__quote p,
+.hero__text p {
     text-align: end;
     font-style: italic;
     font-size: .9rem;
