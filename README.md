@@ -18,3 +18,5 @@ Fuente utilizado montserrat
 [ ] Botton de autoscroll
 
 [ ] Logotipo de Emmet y añadirlo a la lista
+
+Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
