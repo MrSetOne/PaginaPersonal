@@ -1,8 +1,7 @@
 # PaginaPersonal
 
-Fuente utilizado montserrat
 ![Captura de fuentes disponibles](./assets/ToReadme/Montserrat.png)
-![Captura de paleta de colores](./assets/ToReadme/Montserrat.png)
+![Captura de paleta de colores](./assets/ToReadme/Captura%20de%20pantalla%202022-04-07%20153313.png)
 
 - [ ] Estudiar la opcion de añadir efecto parallax en el header del index
 
