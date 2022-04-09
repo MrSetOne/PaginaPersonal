@@ -1,7 +1,8 @@
 # PaginaPersonal
 
 Fuente utilizado montserrat
-![Captura de fuentes disponibles](./src/ToReadme/Montserrat.png)
+![Captura de fuentes disponibles](./assets/ToReadme/Montserrat.png)
+![Captura de paleta de colores](./assets/ToReadme/Montserrat.png)
 
 - [ ] Estudiar la opcion de añadir efecto parallax en el header del index
 
@@ -21,6 +22,6 @@ Fuente utilizado montserrat
 
 - [ ] Logotipo de Emmet y añadirlo a la lista
 
-- [] Ordenar logos y meterlos en carpetas
+- [ ] Ordenar logos y meterlos en carpetas
 
 Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
