@@ -602,7 +602,8 @@ footer * {
 }
 
 .portfolio__description img {
-    width: min(20rem, 32vw);
+    /* width: min(20rem, 32vw); */
+    width: 20rem;
 }
 
 .portfolio__item:nth-child(odd) {
@@ -615,6 +616,23 @@ footer * {
 
 .portfolio__item:nth-child(odd)>.portfolio__description {
     box-shadow: inset -18px 0px 50px -11px rgba(0, 0, 0, 0.98);
+}
+
+@media (max-width: 700px) {
+    .portfolio__item:nth-child(even),
+    .portfolio__item:nth-child(odd) {
+        flex-direction: column;
+        border-bottom: solid var(--clear) 1px;
+        margin-bottom: 3rem;
+    }
+    .portfolio__imagen,
+    .portfolio__description {
+        width: 100%;
+    }
+    .portfolio__item:nth-child(odd)>.portfolio__description,
+    .portfolio__item:nth-child(even)>.portfolio__description {
+        box-shadow: none;
+    }
 }
 
 
