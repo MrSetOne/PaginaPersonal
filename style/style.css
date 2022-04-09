@@ -563,4 +563,59 @@ footer * {
 }
 
 
+/* PORTFOLIO PAGE */
+
+.portfolio__item {
+    display: flex;
+    height: min-content;
+    width: 100%;
+    background-color: var(--blanco);
+}
+
+.portfolio__imagen {
+    object-fit: cover;
+    object-position: center;
+    width: 55%;
+}
+
+.portfolio__imagen--left {
+    object-position: left;
+}
+
+.portfolio__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    width: 45%;
+}
+
+.portfolio__description h2 {
+    font-size: 3.2rem;
+}
+
+.portfolio__description p {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.portfolio__description img {
+    width: min(20rem, 32vw);
+}
+
+.portfolio__item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.portfolio__item:nth-child(even)>.portfolio__description {
+    box-shadow: inset 18px 0px 50px -11px rgba(0, 0, 0, 0.98);
+}
+
+.portfolio__item:nth-child(odd)>.portfolio__description {
+    box-shadow: inset -18px 0px 50px -11px rgba(0, 0, 0, 0.98);
+}
+
+
 /* 270px */
