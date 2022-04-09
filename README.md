@@ -16,3 +16,5 @@ Fuente utilizado montserrat
 [ ] Estudiar algun texto bonito para el hero + posible efecto type con libreria
 
 [ ] Botton de autoscroll
+
+[ ] Logotipo de Emmet y añadirlo a la lista
