@@ -636,4 +636,131 @@ footer * {
 }
 
 
+/* CONTACTO */
+
+.contacto__hero {
+    height: 45rem;
+    background-image: url(../assets/typing.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 80px 8px #000000;
+}
+
+.contacto__title {
+    color: var(--clear);
+    font-size: min(18.5vw, 15rem);
+    text-align: center;
+    text-shadow: 0px 0px 20px #000000;
+    line-height: .9;
+}
+
+.contacto__form {
+    background-color: var(--blanco);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -5rem;
+    padding: 2rem;
+    border-radius: 1.2rem;
+}
+
+.contacto__form form {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: .9rem;
+}
+
+.contacto__form * {
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.contacto__form label {
+    text-align: end;
+}
+
+.contacto__form input,
+.contacto__form textarea {
+    padding: .5rem 1rem;
+    border: 1px solid var(--negro);
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.contacto__form textarea {
+    height: 20rem;
+    width: 100%;
+    resize: vertical;
+}
+
+.form__btn {
+    grid-column: span 2;
+    gap: 2rem;
+    justify-content: end;
+}
+
+.btn__item {
+    border: none !important;
+    background-color: var(--auxclear);
+    padding: 1rem !important;
+    font-size: 2rem;
+    line-height: 1;
+    width: 12rem;
+    text-align: center;
+    height: 6rem;
+    color: var(--negro);
+    border-radius: .5rem;
+    cursor: pointer;
+    display: block;
+}
+
+@media (hover: hover) {
+    .form__btn *:hover {
+        background-color: var(--auxmid);
+        transition: .5s;
+    }
+}
+
+@media (max-width: 465px) {
+    .contacto__form form {
+        display: block;
+    }
+    .contacto__form form>label,
+    .contacto__form form>input,
+    .contacto__form form>textarea {
+        display: block;
+        text-align: start;
+        margin: .5rem 0;
+    }
+    .contacto__form form>input,
+    .contacto__form form>textarea {
+        margin-bottom: 1.5rem;
+    }
+    .contacto__form {
+        margin: 0;
+        margin-top: -1.5rem;
+        width: 100%;
+        border-radius: 1.2rem 1.2rem 0 0;
+    }
+    main {
+        padding-bottom: 0;
+    }
+    .form__btn {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 335px) {
+    .form__btn {
+        flex-direction: column;
+    }
+    .form__btn * {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
 /* 270px */
+
+
+/* nombre correo mensaje (textarea) */
