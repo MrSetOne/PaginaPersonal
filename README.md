@@ -22,9 +22,9 @@
 
 - [x] Upgrade de las tarjetas de conocimientos 
 
-- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
+- [x] Revisar como iba el tema del preload y la siguiente pagina a cargar
 
-- [ ] Actualizar importacion de google fonts y limpiar head
+- [x] Actualizar importacion de google fonts y limpiar head
 
 - [ ] Revisar y limpiar "Spanglish"
 
