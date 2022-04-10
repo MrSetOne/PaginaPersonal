@@ -32,7 +32,7 @@
 
 - [x] Mejorar el responsive para whatch con MQ combinadas
 
-- [ ] Botton de autoscroll
+- [x] Botton de autoscroll
 
 - [ ] Añadir hovers compuestos
 

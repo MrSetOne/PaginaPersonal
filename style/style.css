@@ -71,20 +71,24 @@ html {
     left: 0;
     right: 0;
     text-align: center;
-    width: 11rem;
-    height: 11rem;
+    width: 7rem;
+    height: 7rem;
     background-color: #FEFAE0;
     border-radius: 50%;
     opacity: .7;
 }
 
 #btntodown {
-    font-size: 10rem;
+    font-size: 5rem;
     color: var(--negro);
 }
 
 body {
     background-color: var(--darkness);
+}
+
+#cuerpo {
+    overflow-y: hidden;
 }
 
 
@@ -815,10 +819,3 @@ footer * {
 
 
 /* 270px */
-
-
-/* nombre correo mensaje (textarea) */
-
-#cuerpo {
-    overflow-y: hidden;
-}
