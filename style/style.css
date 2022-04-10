@@ -699,9 +699,9 @@ footer * {
 }
 
 .btn__item {
-    border: none !important;
+    border: none;
     background-color: var(--auxclear);
-    padding: 1rem !important;
+    padding: 1rem;
     font-size: 2rem;
     line-height: 1;
     width: 12rem;
@@ -711,6 +711,12 @@ footer * {
     border-radius: .5rem;
     cursor: pointer;
     display: block;
+}
+
+#submit__btn {
+    width: 12rem;
+    padding: 1rem;
+    border: none;
 }
 
 @media (hover: hover) {
@@ -753,7 +759,8 @@ footer * {
     .form__btn {
         flex-direction: column;
     }
-    .form__btn * {
+    .form__btn *,
+    #submit__btn {
         width: 100%;
         height: auto;
     }
