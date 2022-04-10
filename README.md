@@ -21,7 +21,7 @@
 
 - [x] Logotipo de Emmet y añadirlo a la lista
 
-- [ ] Ordenar logos y meterlos en carpetas
+- [X] Ordenar logos y meterlos en carpetas
 
 - [x] Mejorar el nav usando grid
 
