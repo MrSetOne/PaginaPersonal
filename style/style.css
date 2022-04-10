@@ -175,7 +175,7 @@ hr {
     text-shadow: none !important;
 }
 
-.header__enbellecedor {
+.header__trim {
     background-color: var(--negro);
     height: 7rem;
     position: sticky;
@@ -197,7 +197,7 @@ hr {
         /*2.13rem - 3vw - 7rem */
         font-weight: 100;
     }
-    .header__enbellecedor {
+    .header__trim {
         height: 15.5rem;
     }
     .nav__item a {
@@ -380,7 +380,7 @@ footer * {
     .nav__item {
         text-align: center;
     }
-    .header__enbellecedor {
+    .header__trim {
         height: 13.5rem;
     }
 }
@@ -395,7 +395,7 @@ footer * {
     .nav__container {
         grid-template-columns: 1fr;
     }
-    .header__enbellecedor {
+    .header__trim {
         height: 17rem;
     }
     .header__nav {
@@ -516,19 +516,19 @@ footer * {
 }
 
 
-/* CONOCIMIENTOS PAGE */
+/* KNOWLEDGE PAGE */
 
-.conocimientos__title {
+.knowledge__title {
     font-size: clamp(2.7rem, 11.5vw, 12rem);
 }
 
-.conocimientos__hero {
+.knowledge__hero {
     width: 100%;
     height: 35rem;
     object-fit: cover;
 }
 
-.conocimientos__item * {
+.knowledge__item * {
     color: var(--clear);
     text-align: center;
 }
@@ -547,7 +547,7 @@ footer * {
     padding: 2rem;
 }
 
-.conocimientos__item {
+.knowledge__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -560,28 +560,28 @@ footer * {
     background: linear-gradient(0deg, rgba(22, 30, 13, 1) 0%, rgba(25, 37, 12, 1) 37%, rgba(61, 115, 0, 1) 100%);
 }
 
-.conocimientos__item img {
+.knowledge__item img {
     width: 12rem;
 }
 
-.conocimientos__item i {
+.knowledge__item i {
     font-size: 10rem;
 }
 
-.conocimientos__item h3 {
+.knowledge__item h3 {
     font-size: 1.2rem;
 }
 
-.conocimientos__item--inprogress {
+.knowledge__item--inprogress {
     opacity: .3;
 }
 
-.conocimientos__item--dominated {
+.knowledge__item--dominated {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 
-.conocimientos__item--dominated>h3::after,
-.conocimientos__item--dominated>h3::before {
+.knowledge__item--dominated>h3::after,
+.knowledge__item--dominated>h3::before {
     content: "⋆";
 }
 
