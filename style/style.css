@@ -255,7 +255,7 @@ h1 {
     grid-auto-flow: dense;
 }
 
-.article__imagen {
+.article__image {
     height: 100%;
     background-image: url(../assets/musseum1.jpg);
     background-position: center;
@@ -264,7 +264,7 @@ h1 {
     box-shadow: inset 0px 0px 80px 8px #000000;
 }
 
-.article__imagen h2 {
+.article__image h2 {
     font-size: clamp(3.7rem, 18.4vw, 10rem);
     color: var(--blanco);
 }
@@ -281,7 +281,7 @@ h1 {
     grid-template-columns: 7fr 4fr;
 }
 
-.article__imagen:nth-child(odd) {
+.article__image:nth-child(odd) {
     background-image: url(../assets/Smart-Factory.jpg);
     /* CAMBIA LA IMAGEN*/
 }
@@ -357,7 +357,7 @@ footer * {
     .developer__article:first-child {
         flex-direction: column-reverse;
     }
-    .article__imagen {
+    .article__image {
         height: 300px;
     }
 }
@@ -595,13 +595,13 @@ footer * {
     background-color: var(--blanco);
 }
 
-.portfolio__imagen {
+.portfolio__image {
     object-fit: cover;
     object-position: center;
     width: 55%;
 }
 
-.portfolio__imagen--left {
+.portfolio__image--left {
     object-position: left;
 }
 
@@ -648,7 +648,7 @@ footer * {
         border-bottom: solid var(--clear) 1px;
         margin-bottom: 3rem;
     }
-    .portfolio__imagen,
+    .portfolio__image,
     .portfolio__description {
         width: 100%;
     }
