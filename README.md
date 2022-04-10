@@ -35,6 +35,21 @@ La paleta de colores ha sido diseñada en al pagina de Coolors y la pagina esta 
 
 ![Captura de paleta de colores](./assets/ToReadme/paleta.png)
 
+## Concepto e inspiracion:
+La idea es generar una mezcla entre diseño industrial con colores oscuros y naturaleza con tonos verdes.
+
+La el diseño principal está basado en un diseño que tenia hace tiempo realizada en AdobeXd:
+
+---
+
+## Falta captura de AdobeXd
+
+---
+
+# Retos presentados
+
+## Nav se mantiene sticky fuera de su padre:
+
 
 
 
