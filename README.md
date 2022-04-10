@@ -3,9 +3,6 @@
 ![Captura de fuentes disponibles](./assets/ToReadme/Montserrat.png)
 ![Captura de paleta de colores](./assets/ToReadme/Captura%20de%20pantalla%202022-04-07%20153313.png)
 
-- [ ] Estudiar la opcion de añadir efecto parallax en el header del index
-
-- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
 
 - [x] Revisar proyecto en AdobeXd para poder orientarte
 
@@ -15,15 +12,15 @@
 
 - [x] Estudiar algun texto bonito para el hero
 
-- [ ] Estudiar efecto type con libreria externa
-
-- [ ] Botton de autoscroll
-
 - [x] Logotipo de Emmet y añadirlo a la lista
 
 - [X] Ordenar logos y meterlos en carpetas
 
 - [x] Mejorar el nav usando grid
+
+- [ ] Estudiar efecto type con libreria externa
+
+- [ ] Botton de autoscroll
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
 
@@ -36,6 +33,11 @@
 - [ ] Generar variables y clases de utilidades para limpiar codigo
 
 - [ ] Revisar y limpiar "Spanglish"
+
+- [ ] Estudiar la opcion de añadir efecto parallax en el header del index
+
+- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
+
 
 Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
 
