@@ -19,9 +19,23 @@
 
 - [ ] Botton de autoscroll
 
-- [ ] Logotipo de Emmet y añadirlo a la lista
+- [x] Logotipo de Emmet y añadirlo a la lista
 
 - [ ] Ordenar logos y meterlos en carpetas
+
+- [x] Mejorar el nav usando grid
+
+- [ ] Mejorar el responsive para whatch con MQ combinadas
+
+- [ ] Upgrade de las tarjetas de conocimientos 
+
+- [ ] Comprimir el css y generar su version "lite"
+
+- [ ] Añadir hovers compuestos
+
+- [ ] Generar variables y clases de utilidades para limpiar codigo
+
+- [ ] Revisar y limpiar "Spanglish"
 
 Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
 
