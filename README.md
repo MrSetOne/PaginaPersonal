@@ -20,9 +20,11 @@
 
 - [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
 
+- [ ] Añadir margin al footer
+
 - [ ] Revisar y limpiar "Spanglish"
 
-- [ ] Upgrade de las tarjetas de conocimientos 
+- [x] Upgrade de las tarjetas de conocimientos 
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
 
