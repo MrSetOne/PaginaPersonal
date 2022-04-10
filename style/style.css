@@ -819,10 +819,6 @@ footer * {
 
 /* nombre correo mensaje (textarea) */
 
-body {
+#cuerpo {
     overflow-y: hidden;
-}
-
-.scrolleable {
-    overflow-y: scroll;
 }
