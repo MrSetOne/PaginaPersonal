@@ -18,12 +18,13 @@
 
 - [x] Mejorar el nav usando grid
 
-- [ ] Añadir margin al footer
+- [x] Añadir margin al footer
 
 - [x] Upgrade de las tarjetas de conocimientos 
 
 - [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
 
+- [ ] Actualizar importacion de google fonts y limpiar head
 
 - [ ] Revisar y limpiar "Spanglish"
 
