@@ -18,26 +18,25 @@
 
 - [x] Mejorar el nav usando grid
 
-- [ ] Estudiar efecto type con libreria externa
+- !!![ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
 
-- [ ] Botton de autoscroll
+- !!![ ] Revisar y limpiar "Spanglish"
 
-- [ ] Mejorar el responsive para whatch con MQ combinadas
+-!!! [ ] Upgrade de las tarjetas de conocimientos 
 
-- [ ] Upgrade de las tarjetas de conocimientos 
+-!!! [ ] Mejorar el responsive para whatch con MQ combinadas
 
-- [ ] Comprimir el css y generar su version "lite"
+-!! [ ] Botton de autoscroll
 
-- [ ] Añadir hovers compuestos
+- !![ ] Añadir hovers compuestos
 
-- [ ] Generar variables y clases de utilidades para limpiar codigo
+- !![ ] Generar variables y clases de utilidades para limpiar codigo
 
-- [ ] Revisar y limpiar "Spanglish"
+- ![ ] Comprimir el css y generar su version "lite"
 
-- [ ] Estudiar la opcion de añadir efecto parallax en el header del index
+- ![ ] Estudiar la opcion de añadir efecto parallax en el header del index
 
-- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
-
+- ! [ ] Estudiar efecto type con libreria externa
 
 Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
 
