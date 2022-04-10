@@ -30,9 +30,7 @@
 
 - [x] Revisar y limpiar "Spanglish"
 
-- [ ] Mejorar el responsive para whatch con MQ combinadas
-
-- [ ] Upgrade de las tarjetas de Hobies
+- [x] Mejorar el responsive para whatch con MQ combinadas
 
 - [ ] Botton de autoscroll
 

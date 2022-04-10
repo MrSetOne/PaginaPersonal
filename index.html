@@ -17,7 +17,7 @@
     <title>Michael Lara Sánchez</title>
 </head>
 
-<body>
+<body id="cuerpo">
     <header>
         <div class="header__hero">
             <nav class="header__nav">
@@ -44,9 +44,12 @@
                     <p>Swami Vivekananda</p>
                 </div>
             </div>
+            <div id="btn__container" class="flexcenter">
+                <a id="btntodown" href="#init" onclick="todown()"><i class="fa-solid fa-caret-down"></i></a>
+            </div>
         </div>
     </header>
-    <div class="header__trim"></div>
+    <div id="init" class="header__trim"></div>
 
     <!-- Fin del header -->
 
@@ -103,6 +106,7 @@
             </li>
         </ul>
     </footer>
+    <script src="./js/scroll.js"></script>
 </body>
 
 </html>
