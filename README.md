@@ -1,14 +1,46 @@
-# PaginaPersonal
+# Indice
+* Sobre este proyecto
+    * Origen
+    * Objetivo
+* Recursos
+    * Fuentes utilizadas
+    * Paleta de colores
+    * Concepto e inspiracion
+* Retos presentados
+    * Nav se mantiene sticky fuera de su padre
+    * Dominio sobre archivos SVG
+    * Uso y masterizacion de clamp() y min() en CSS
+    * Practica Emmet
+    * Sistema de tarjetas de la pagina knowledge
+    * Implementacion de preloads y prefetchs
+    * Optimizacion de GoogleFonts
+    * Reto de WatchFriendly
+    * Boton de autoscroll (Primer contacto con JavaScript en el DOM)
+    
+# Sobre el proyecto
 
-![Captura de fuentes disponibles](./assets/ToReadme/Montserrat.png)
-![Captura de paleta de colores](./assets/ToReadme/Captura%20de%20pantalla%202022-04-07%20153313.png)
+## Origen:
+Este es mi trabajo de final de rampup del bootcamp de Full Stack Developer en The Bridge.
+
+## Objetivo:
+Consiste en la maquetacion y desarrollo de mi pagina web personal, como si fuese una especie de "curriculum online" 
+
+
+# Recursos
+## Fuentes utilizadas:
+Para esta pagina he utilizado fuentes de GoogleFonts, para ser mas exactos he usado la fuente Montserrat y Beau Rivage.
+
+## Paleta de colores:
+La paleta de colores ha sido diseñada en al pagina de Coolors y la pagina esta diseñada principalmente con colores en clave baja (Colores oscuros), la paleta de color utilizada es la siguiente:
+
+![Captura de paleta de colores](./assets/ToReadme/paleta.png)
+
+
 
 
 - [x] Revisar proyecto en AdobeXd para poder orientarte
 
 - [x] Estudiar hacer el nav sticky junto a un falso negro para que se quede ahí pillado (Jugar con los z-index)
-
-- [x] Hacer un degradado negro con photoshop en el hero
 
 - [x] Estudiar algun texto bonito para el hero
 
