@@ -26,6 +26,8 @@
 
 - [x] Actualizar importacion de google fonts y limpiar head
 
+- [x] Optimizacion de imagenes pesadas
+
 - [ ] Revisar y limpiar "Spanglish"
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
