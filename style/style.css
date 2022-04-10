@@ -404,7 +404,7 @@ footer * {
     }
 }
 
-@media (max-height: 450px) {
+@media (max-height: 450px) and (max-width: 450px) {
     .hero__text {
         display: none;
     }
@@ -414,8 +414,11 @@ footer * {
     .article__text blockquote {
         font-size: 2.7rem;
     }
-    footer {
-        flex-direction: column;
+}
+
+@media (max-height: 450px) {
+    .hero__text {
+        display: none;
     }
 }
 

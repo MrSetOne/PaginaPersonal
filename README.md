@@ -32,6 +32,8 @@
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
 
+- [ ] Upgrade de las tarjetas de Hobies
+
 - [ ] Botton de autoscroll
 
 - [ ] Añadir hovers compuestos
