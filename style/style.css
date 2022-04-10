@@ -325,12 +325,23 @@ footer {
     align-items: center;
     margin-top: 1rem;
     background-color: var(--negro);
-    padding: 1rem 0;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+footer * {
+    text-align: center;
 }
 
 footer ul {
     display: flex;
     gap: 2rem;
+}
+
+@media (max-width: 473px) {
+    footer {
+        flex-direction: column;
+    }
 }
 
 footer * {

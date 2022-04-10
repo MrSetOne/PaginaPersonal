@@ -18,13 +18,14 @@
 
 - [x] Mejorar el nav usando grid
 
-- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
-
 - [ ] Añadir margin al footer
 
-- [ ] Revisar y limpiar "Spanglish"
-
 - [x] Upgrade de las tarjetas de conocimientos 
+
+- [ ] Revisar como iba el tema del preload y la siguiente pagina a cargar
+
+
+- [ ] Revisar y limpiar "Spanglish"
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
 
