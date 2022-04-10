@@ -659,9 +659,9 @@ footer * {
 }
 
 
-/* CONTACTO */
+/* contact */
 
-.contacto__hero {
+.contact__hero {
     height: 45rem;
     background-image: url(../assets/typing.jpg);
     background-size: cover;
@@ -669,7 +669,7 @@ footer * {
     box-shadow: inset 0px 0px 80px 8px #000000;
 }
 
-.contacto__title {
+.contact__title {
     color: var(--clear);
     font-size: min(18.5vw, 15rem);
     text-align: center;
@@ -677,7 +677,7 @@ footer * {
     line-height: .9;
 }
 
-.contacto__form {
+.contact__form {
     background-color: var(--blanco);
     width: 90%;
     margin: 0 auto;
@@ -686,30 +686,30 @@ footer * {
     border-radius: 1.2rem;
 }
 
-.contacto__form form {
+.contact__form form {
     display: grid;
     grid-template-columns: 7rem 1fr;
     gap: .9rem;
 }
 
-.contacto__form * {
+.contact__form * {
     font-size: 1.5rem;
     background-color: transparent;
 }
 
-.contacto__form label {
+.contact__form label {
     text-align: end;
 }
 
-.contacto__form input,
-.contacto__form textarea {
+.contact__form input,
+.contact__form textarea {
     padding: .5rem 1rem;
     border: 1px solid var(--negro);
     border-radius: .5rem;
     width: 100%;
 }
 
-.contacto__form textarea {
+.contact__form textarea {
     height: 20rem;
     width: 100%;
     resize: vertical;
@@ -750,21 +750,21 @@ footer * {
 }
 
 @media (max-width: 465px) {
-    .contacto__form form {
+    .contact__form form {
         display: block;
     }
-    .contacto__form form>label,
-    .contacto__form form>input,
-    .contacto__form form>textarea {
+    .contact__form form>label,
+    .contact__form form>input,
+    .contact__form form>textarea {
         display: block;
         text-align: start;
         margin: .5rem 0;
     }
-    .contacto__form form>input,
-    .contacto__form form>textarea {
+    .contact__form form>input,
+    .contact__form form>textarea {
         margin-bottom: 1.5rem;
     }
-    .contacto__form {
+    .contact__form {
         margin: 0;
         margin-top: -1.5rem;
         width: 100%;
