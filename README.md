@@ -28,7 +28,7 @@
 
 - [x] Optimizacion de imagenes pesadas
 
-- [ ] Revisar y limpiar "Spanglish"
+- [x] Revisar y limpiar "Spanglish"
 
 - [ ] Mejorar el responsive para whatch con MQ combinadas
 
