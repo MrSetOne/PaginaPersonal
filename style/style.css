@@ -526,6 +526,7 @@ footer * {
     padding: 2rem;
     background: rgb(22, 30, 13);
     background: linear-gradient(0deg, rgba(22, 30, 13, 1) 0%, rgba(25, 37, 12, 1) 37%, rgba(61, 115, 0, 1) 100%);
+    transition: .3s;
 }
 
 .knowledge__item img {
@@ -551,6 +552,12 @@ footer * {
 .knowledge__item--dominated>h3::after,
 .knowledge__item--dominated>h3::before {
     content: "⋆";
+}
+
+@media (hover: hover) {
+    .knowledge__item:hover {
+        transform: scale(1.1);
+    }
 }
 
 
