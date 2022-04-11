@@ -2,19 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 
-/*  */
-
-
-/*  */
-
-
 /* VARIABLES */
-
-
-/*  */
-
-
-/*  */
 
 :root {
     --negro: #000000;
@@ -28,19 +16,7 @@
 }
 
 
-/*  */
-
-
-/*  */
-
-
 /* GLOBALES */
-
-
-/*  */
-
-
-/*  */
 
 * {
     margin: 0;
@@ -92,19 +68,7 @@ body {
 }
 
 
-/*  */
-
-
-/*  */
-
-
 /* Utilidades */
-
-
-/*  */
-
-
-/*  */
 
 .flexcenter {
     display: flex;
@@ -113,19 +77,7 @@ body {
 }
 
 
-/*  */
-
-
-/*  */
-
-
 /* HEADER */
-
-
-/*  */
-
-
-/*  */
 
 .header__hero {
     height: 100vh;
@@ -237,19 +189,7 @@ hr {
 }
 
 
-/*  */
-
-
-/*  */
-
-
 /* MAIN CONTENT */
-
-
-/*  */
-
-
-/*  */
 
 main {
     background-color: var(--negro);

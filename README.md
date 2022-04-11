@@ -40,11 +40,7 @@ La idea es generar una mezcla entre diseño industrial con colores oscuros y nat
 
 La el diseño principal está basado en un diseño que tenia hace tiempo realizada en AdobeXd:
 
----
-
-## Falta captura de AdobeXd
-
----
+![Captura del proyecto en adobexd](./assets/ToReadme/Maquetacion.png)
 
 # Retos presentados
 
