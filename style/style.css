@@ -387,6 +387,41 @@ footer * {
     }
 }
 
+.article__image {
+    position: relative;
+}
+
+.image__card {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.247);
+    width: 97%;
+    height: 20rem;
+    border-radius: 2.5rem;
+    gap: 1.5rem;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: .5s;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image__card i {
+    color: var(--negro);
+    font-size: min(28vw, 15rem);
+}
+
+@media (hover: hover) {
+    .article__image:hover>.image__card {
+        opacity: 1;
+        top: 50%
+    }
+}
+
+@media (hover: none) {
+    /* Aqui falta poner en el caso de que el dispositivo no tenga hover */
+}
+
 
 /* ABOUT ME PAGE */
 
