@@ -45,7 +45,14 @@ La el diseño principal está basado en un diseño que tenia hace tiempo realiza
 # Retos presentados
 
 ## Nav se mantiene sticky fuera de su padre:
+En este proyecto queria hacer que en el index hubiese un hero que ocupase el 100% de la pantalla pero que el nav quedara por encima del hero y se mantuviese así, para esto tenia pensado usar position: sticky, el problemas es que se quedaba dentro del contenedor, para conseguir que se quedase fuera la solucion ha sido usar `position: fixed` y debajo del hero he colacodo una embellecedo que hace de fondo real del nav en el resto de la navegacion dentro de index.html, para esto he tenido que asignarle unos z-index altos tanto al nav como a su fondo.
 
+## Dominio sobre los SVG
+Para el uso de iconos he usado la libreria de FontAwesome, lo que ocurre es que para la pagina knowledge.html queria meter muchos logos los cual no estaban en dicha libreria, entonces he tenido que buscar los archivos SVG de distintos bancos de imagen, el problema está en que la mayoria de estos archivos llevan dentro los colores ya asignados, tras bastantes pruebas y experimentos he descubierto que los archivo SVG cuentan con las etiquetas `<style>` y `<defs>`, estas etiquetas sirven para otorgar al archivo de propiedades de estilos. El archivo tiene diversas capas, en todos los que he tocado se llamabas `cls-X`, simplemente ha que cambiar la propiedad `fill:#xxxxxx` por el color en hexadecimal que quieras colocar.
+
+Ejemplo de estructura tipica queencuentras dentro de estos archivos `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>`
+
+## Uso y masterizacion de clamp() y min() en CSS
 
 
 
