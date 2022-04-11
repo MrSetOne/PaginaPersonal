@@ -227,11 +227,21 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 0px 0px 80px 8px #000000;
+    position: relative;
+    flex-direction: column;
 }
 
 .article__image h2 {
     font-size: clamp(3.7rem, 18.4vw, 10rem);
     color: var(--blanco);
+}
+
+.article__image>p {
+    display: none;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: var(--blanco);
+    padding: 1rem 2rem;
 }
 
 .article__text {
@@ -387,10 +397,6 @@ footer * {
     }
 }
 
-.article__image {
-    position: relative;
-}
-
 .image__card {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.247);
@@ -401,9 +407,14 @@ footer * {
     backdrop-filter: blur(10px);
     opacity: 0;
     transition: .5s;
-    top: 70%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+.card__icons {
+    gap: 1.5rem;
 }
 
 .image__card i {
@@ -411,15 +422,24 @@ footer * {
     font-size: min(28vw, 15rem);
 }
 
+.image__card p {
+    font-size: 1.5rem;
+}
+
 @media (hover: hover) {
     .article__image:hover>.image__card {
         opacity: 1;
-        top: 50%
+        top: 50%;
+    }
+    .image__card>p {
+        display: none;
     }
 }
 
 @media (hover: none) {
-    /* Aqui falta poner en el caso de que el dispositivo no tenga hover */
+    .article__image p {
+        display: block;
+    }
 }
 
 
