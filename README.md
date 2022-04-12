@@ -38,6 +38,8 @@ La paleta de colores ha sido diseñada en al pagina de Coolors y la pagina esta 
 ## Concepto e inspiracion:
 La idea es generar una mezcla entre diseño industrial con colores oscuros y naturaleza con tonos verdes.
 
+Este protecto está basado en la metodología BEM y Tiny tweaks para conseguir un buen responsive. 
+
 La el diseño principal está basado en un diseño que tenia hace tiempo realizada en AdobeXd:
 
 ![Captura del proyecto en adobexd](./assets/ToReadme/Maquetacion.png)
