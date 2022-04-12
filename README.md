@@ -19,10 +19,10 @@
     * Optimizacion
         * Implementacion de preloads y prefetchs
         * Optimizacion de GoogleFonts
-    <!-- * Reto de WatchFriendly -->
-    <!-- * Boton de autoscroll (Primer contacto con JavaScript en el DOM) -->
-<!-- * Agradecimientos -->
-<!-- * Autor -->
+    * Responsive WatchFriendly
+    * Boton de autoscroll (Primer contacto con JavaScript en el DOM)
+* Agradecimientos
+* Autor
     
 ---
 
@@ -145,44 +145,34 @@ Usé preload para evitar que cargase la pagina HTML antes que la hoja de estilos
 A pesar del prefecth y preload observo que las fuentes provenientes de GoogleFonts tardan en cargar y seguia teniendo ese efecto de inestabilidad, revisando los tiempos de descargas veo que la descargas de dichas fuentes eran demasiado elevados, llegando a los 150ms, al parecer tenia muchos estilos de fuentes que no estaba usando, pero igualmente se descargaban, la solucion fue modificar el `@import` para que cargasen solo las fuentes necesarias, así consigo optimizar el tiempo de carga para que solo tarde 30ms.
 
 
+### Responsive WatchFriendly
+Uno de los retos que queria afrontar con este proyecto era hacer una web que sea amigable con los smartwatch, para ello he estudiado las resoluciones de los mismos y he optado por hacer un MediaQuery de doble condicion, usando la siguiente estructura:
+```CSS
+@media (max-height: 450px) and (max-width: 450px) {
 
+}
+```
+Con esto puedes controlar las propiedades de los dispositivos que midan menos de 450px de alto y ancho (este es el tamaño a partir del cual se desarrollan los SmartWatch)
 
+### Primer contacto con JavaScript en el DOM
+Nunca habia usado este lenguaje en el DOM y lo necesitaba para poder hacer un efecto de SPA (SinglePageAplication), el cual consistia en bloquear el scroll y que este se desbloqueara y te moviese a raiz de un scroll, a su vez una vez pulsado este boton cambiaria el tamaño del hero, sirviendo así de introduccion al contenido real de la pagina.
 
+Tambien he usado JS en la pagina index.html para habilitar unas tarjetas cuando el dispositivo que se está usando no dispone de "hover".
 
+---
+## Agradecimmientos
+En primer lugar agradecer a TheBridge por el reto impuesto, es el primer proyecto que tengo que presentar y con tiempo tope, esto me ha supuesto un reto en la parte buena de la palabra y me ha dado fuerzas para afrontarlo y dar el 200% de mi.
 
-- [x] Revisar proyecto en AdobeXd para poder orientarte
+Tambien agradecer a mis compañeros, con los que he podido contar en todo momento para cualquier microataque de "esto no funciona", aportandome un segundo punto de vista, que en algunos casos ha sido vital.
 
-- [x] Estudiar hacer el nav sticky junto a un falso negro para que se quede ahí pillado (Jugar con los z-index)
+---
+## Pagina desarrollada por Michael Lara Sánchez(MrSetOne)
+Para ver mas sobre mi desarrollo [haz click aqui](https://github.com/MrSetOne)
 
-- [x] Estudiar algun texto bonito para el hero
+---
+## Proximos pasos a dar en esta web:
 
-- [x] Logotipo de Emmet y añadirlo a la lista
-
-- [X] Ordenar logos y meterlos en carpetas
-
-- [x] Mejorar el nav usando grid
-
-- [x] Añadir margin al footer
-
-- [x] Upgrade de las tarjetas de conocimientos 
-
-- [x] Revisar como iba el tema del preload y la siguiente pagina a cargar
-
-- [x] Actualizar importacion de google fonts y limpiar head
-
-- [x] Optimizacion de imagenes pesadas
-
-- [x] Revisar y limpiar "Spanglish"
-
-- [x] Mejorar el responsive para whatch con MQ combinadas
-
-- [x] Botton de autoscroll
-
-- [ ] Añadir hovers compuestos
-
-- [ ] Generar variables y clases de utilidades para limpiar codigo
-
-- [ ] Comprimir el css y generar su version "lite"
+- [ ] Generar variables y clases de utilidades para limpiar codigo CSS
 
 - [ ] Estudiar la opcion de añadir efecto parallax en el header del index
 
@@ -190,11 +180,4 @@ A pesar del prefecth y preload observo que las fuentes provenientes de GoogleFon
 
 - [ ] Hacer una página de fotografía y estudiar donde llevan las tarjetas de hobbies
 
-Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
-
-Micropractica con emmet, he usado el codigo:
-
-`h1.portfolio__container+div.porfolio__container>div.portfolio__item*4>img.portfolio__imagen+div.portfolio__description>h2.description__title+p.description__text+a>img`
-
-para obtener el siguiente codigo:
-
+- [ ] Retocar el archivo JavaScript para que sea mas "inteligente" añadiendo objeto de control y optimizando las 4 funciones de las tarjetas en 1 sola con if/else y dicho objeto.
