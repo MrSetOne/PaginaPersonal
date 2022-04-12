@@ -40,8 +40,6 @@ Este es mi trabajo de final de rampup del bootcamp de Full Stack Developer en Th
 ### Objetivo:
 Consiste en la maquetacion y desarrollo de mi pagina web personal, como si fuese una especie de "curriculum online" 
 
----
-
 ## Recursos
 ### Fuentes utilizadas:
 Para esta pagina he utilizado fuentes de GoogleFonts, para ser mas exactos he usado la fuente Montserrat y Beau Rivage.
@@ -59,8 +57,6 @@ Este protecto está basado en la metodología BEM y Tiny tweaks para conseguir u
 La el diseño principal está basado en un diseño que tenia hace tiempo realizada en AdobeXd:
 
 ![Captura del proyecto en adobexd](./assets/ToReadme/Maquetacion.png)
-
----
 
 ## Retos presentados
 
@@ -159,17 +155,14 @@ Nunca habia usado este lenguaje en el DOM y lo necesitaba para poder hacer un ef
 
 Tambien he usado JS en la pagina index.html para habilitar unas tarjetas cuando el dispositivo que se está usando no dispone de "hover".
 
----
 ## Agradecimmientos
 En primer lugar agradecer a TheBridge por el reto impuesto, es el primer proyecto que tengo que presentar y con tiempo tope, esto me ha supuesto un reto en la parte buena de la palabra y me ha dado fuerzas para afrontarlo y dar el 200% de mi.
 
 Tambien agradecer a mis compañeros, con los que he podido contar en todo momento para cualquier microataque de "esto no funciona", aportandome un segundo punto de vista, que en algunos casos ha sido vital.
 
----
 ## Pagina desarrollada por Michael Lara Sánchez(MrSetOne)
 Para ver mas sobre mi desarrollo [haz click aqui](https://github.com/MrSetOne)
 
----
 ## Proximos pasos a dar en esta web:
 
 - [ ] Generar variables y clases de utilidades para limpiar codigo CSS
