@@ -1,5 +1,7 @@
 # Página personal
 
+![Revision responsive](./assets/ToReadme/banner.jpg)
+
 ## Índice
 * Sobre este proyecto
     * Instalación y despliegue
