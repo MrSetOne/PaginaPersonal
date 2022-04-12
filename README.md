@@ -3,29 +3,29 @@
 ![Revision responsive](./assets/ToReadme/banner.jpg)
 
 ## Índice
-* Sobre este proyecto
-    * Instalación y despliegue
-    * Tecnologías usadas
-    * Origen
-    * Objetivo
-* Recursos
-    * Fuentes utilizadas
-    * Paleta de colores
-    * Concepto e inspiración
-* Retos presentados
-    * Nav se mantiene sticky fuera de su padre
-    * Dominio sobre archivos SVG
-    * Uso y masterización de clamp() y min() en CSS
-    * Práctica Emmet
-    * Sistema de tarjetas de la página knowledge
-    * Optimización
-        * Implementación de preloads y prefetchs
-        * Optimización de GoogleFonts
-    * Responsive WatchFriendly
-    * Botón de autoscroll (Primer contacto con JavaScript en el DOM)
-* Agradecimientos
-* Autor
-    
+* [Sobre el proyecto](#sobre-el-proyecto)
+    * [Instalación y despliegue](#instalación-y-despliegue)
+    * [Tecnologías usadas](#tecnologías-usadas)
+    * [Origen](#origen)
+    * [Objetivo](#objetivo)
+* [Recursos](#recursos)
+    * [Fuentes utilizadas](#fuentes-utilizadas)
+    * [Paleta de colores](#paleta-de-colores)
+    * [Concepto e inspiración](#concepto-e-inspiración)
+* [Retos presentados](#retos-presentados)
+    * [Nav se mantiene sticky fuera de su padre](#nav-se-mantiene-sticky-fuera-de-su-padre)
+    * [Dominio sobre archivos SVG](#dominio-sobre-los-svg)
+    * [Uso y masterización de clamp() y min() en CSS](#uso-y-masterización-de-clamp-y-min-en-css)
+    * [Práctica Emmet](#práctica-con-emmet)
+    * [Sistema de tarjetas de la página knowledge](#sistema-de-tarjetas-de-la-página-knowledge)
+    * [Optimización](#optimización)
+        * [Implementación de preloads y prefetchs](#prefetch-y-preload)
+        * [Optimización de GoogleFonts](#optimización-de-googlefonts)
+    * [Responsive WatchFriendly](#responsive-watchfriendly)
+    * [Primer contacto con JavaScript en el DOM](#primer-contacto-con-javascript-en-el-dom)
+* [Agradecimientos](#agradecimientos)
+* [Autor](https://github.com/MrSetOne)
+
 ---
 
 ## Sobre el proyecto
@@ -157,14 +157,14 @@ Nunca había usado este lenguaje en el DOM y lo necesitaba para poder hacer un e
 
 También he usado JS en la página index.html para habilitar unas tarjetas cuando el dispositivo que se está usando no dispone de "hover".
 
-## Agradecimmientos
+## Agradecimientos
 En primer lugar, agradecer a TheBridge por el reto impuesto. Es el primer proyecto que tengo que presentar y con tiempo tope, lo que me ha supuesto un reto en la parte buena de la palabra y me ha dado fuerzas para afrontarlo y dar el 200% de mí.
 
 También agradecer a mis compañeros, con los que he podido contar en todo momento para cualquier microataque de "esto no funciona", aportándome un segundo punto de vista, que en algunos casos ha sido vital.
 
 Como no, agradecer tambien a mi pareja, la cual me ha tendio que aguantar 24/7 pagado a la pantalla para poder hacer este proyecto realidad y me ha revisado las faltas de este readme. :heart:
 
-## Página desarrollada por Michael Lara Sánchez(MrSetOne)
+## Pagina desarrollada por Michael Lara Sanchez (MrSetOne)
 Para ver más sobre mi desarrollo [haz click aqui](https://github.com/MrSetOne)
 
 ## Próximos pasos a dar en esta web:
