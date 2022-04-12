@@ -96,6 +96,8 @@ Ejemplo de estructura tipica queencuentras dentro de estos archivos `<defs><styl
 
 - [ ] Estudiar efecto type con libreria externa
 
+- [ ] Hacer una página de fotografía y estudiar donde llevan las tarjetas de hobbies
+
 Investigacion sobre el codigo de los SVGs y como modificarlo bajo las etiquetas de `<defs><style>.cls-1{fill:#xxxxxx}</style></defs>` en este caso añadiendole la clase cls-1 bajo la misma sintaxis que html
 
 Micropractica con emmet, he usado el codigo:
