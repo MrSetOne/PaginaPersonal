@@ -644,6 +644,7 @@ footer * {
     object-fit: cover;
     object-position: center;
     width: 55%;
+    height: 40rem;
 }
 
 .portfolio__image--left {
