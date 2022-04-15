@@ -479,8 +479,9 @@ footer * {
 }
 
 .aboutme__text p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     width: 100%;
+    line-height: 1.7;
     background-color: var(--clear);
     padding: 2rem min(12rem, 9vw);
     text-align: justify;
@@ -826,8 +827,7 @@ footer * {
     .form__btn {
         flex-direction: column;
     }
-    .form__btn *,
-    #submit__btn {
+    .form__btn * #submit__btn {
         width: 100%;
         height: auto;
     }
