@@ -1,4 +1,4 @@
-# Página personal
+<center> <h1>Página personal </h1> </center>
 
 ![Revision responsive](./assets/ToReadme/banner.jpg)
 
